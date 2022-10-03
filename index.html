@@ -13,21 +13,25 @@
     <body>
         <!--Header-->
         <header>
-            <img class="logo "src="Logo.png" alt="Little Lemon Logo" >
+            <img class="logo" id="logo" src="Logo.png" alt="Little Lemon Logo" >
         </header>
 
         <!--Nav links-->
-        <nav class="nav-bar">
-            <ul>
-                <li><a class="nav-link" href="index.html">Home</a></li>
-                <li><a class="nav-link" href="menu.html">Menu</a></li>
-                <li><a class="nav-link" href="book.html">Book</a></li>
-                <li><a class="nav-link" href="about.html">About</a></li>
-            </ul>
+        <nav>
+            <div class="nav-bar">
+                <div>
+                    <ul>
+                        <li><a class="nav-link" href="#logo">Home</a></li>
+                        <li><a class="nav-link" href="#menu">Menu</a></li>
+                        <li><a class="nav-link" href="#book">Book</a></li>
+                        <li><a class="nav-link" href="#about">About</a></li>
+                    </ul>
+                </div>
+            </div>
         </nav>
 
         <!--main-->
-        <main>
+        <main id="main">
             <section>
                 <article class="discount">
                     <h1>20% off this weekend!</h1>
@@ -37,7 +41,7 @@
             
             <section>
                 <article class="articles-mid">
-                    <h2>Our New Menu</h2>
+                    <h2 id="menu">Our New Menu</h2>
                     <img class="articles-img" src="pizza.jpg" alt="picture of pizza">
                     <p>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
@@ -45,7 +49,7 @@
                 </article>
             
                 <article class="articles-mid">
-                    <h2>Book Now!</h2>
+                    <h2 id="book">Book Now!</h2>
                     <img class="articles-img" src="pasta.jpg" alt="picture of pasta">
                     <p>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
@@ -53,7 +57,7 @@
                 </article>
 
                 <article class="articles-mid">
-                    <h2>About Us</h2>
+                    <h2 id="about">About Us</h2>
                     <img class="articles-img" src="food4.jpg" alt="picture of food">
                     <p>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
@@ -72,7 +76,7 @@
         <footer>
             <div class="footer-container">
                 <div>
-                    <img id="footer.img" src="Logo.png" alt="Little Lemon Logo" >
+                    <img id="footer-img" src="Logo.png" alt="Little Lemon Logo" >
                 </div>
 
                 <div class="copyright">

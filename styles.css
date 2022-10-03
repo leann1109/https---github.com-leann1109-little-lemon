@@ -23,7 +23,7 @@ img {
 .nav-bar {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-around;
     margin: 1rem;
     padding: 1rem;
     background-color: lightyellow;
@@ -117,19 +117,21 @@ h2 {
 
 /* footer */
 .footer-container {
+    margin: auto;
     display: flex;
+    justify-content: flex-start;
 }
 
 #footer-img {
-    object-fit: contain;
     width: 30vw;
-    height: 50px;
-}
-
-.footer-container div {
-    flex: 1;
+    height: 75px;
 }
 
 .copyright {
-    justify-content: end;
+    margin: auto;
+    display: flex;
+    flex: 2;
+    justify-content: flex-end;
+    font-size: 11px;
+    padding-right: 1vw;
 }
